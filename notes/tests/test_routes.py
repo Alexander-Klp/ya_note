@@ -7,7 +7,7 @@ User = get_user_model()
 
 
 class TestRoutes(TestCase):
-
+    """Тестирование маршрутов"""
     @classmethod
     def setUpTestData(cls):
         cls.author = User.objects.create(username='Лев Толстой')
